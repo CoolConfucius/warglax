@@ -1,4 +1,5 @@
 # War Glax: 
+## A Game made using the Phaser game engine 
 A portal cracked open in the sky and monsters from another world are attacking the sky villagers of Glax. While the experts are working on closing the portal, a warrior buys them time by battling with the enemies. His weapon of choice is clouds made into green cubes with properties that destroy enemies. Solar energy pieces that take the form of stars boost the warrior's flight speed and repair his red shield named Lives. 
 
 How to play:
