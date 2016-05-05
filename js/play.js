@@ -225,7 +225,7 @@ var playState = {
 	// The takeStar function has two parameters. It says player in the first parameter, but this function is called when the player, squares, enemies, or bosses overlap with the star. 
 	takeStar: function(player, star) {
 		// We add 10 points to the score and update the score label 
-		game.global.score += (Math.floor(game.global.score / 500) + 10);
+		game.global.score += (Math.floor(game.global.score / 200) + 10);
 		this.scoreLabel.text = 'score: ' + game.global.score;
 		// We add 1 life point and update the lives label 
 		game.global.lives += 1; 
@@ -260,7 +260,7 @@ var playState = {
 	},
 	// The previous functions apply to star1. The following two functions are exactly the same as the ones above except they apply to star2. 
 	takeStar2: function(player, star2) {
-		game.global.score += (Math.floor(game.global.score / 500) + 10);
+		game.global.score += (Math.floor(game.global.score / 200) + 10);
 		// game.global.score += 10;
 		this.scoreLabel.text = 'score: ' + game.global.score;
 		game.global.lives += 1; 
